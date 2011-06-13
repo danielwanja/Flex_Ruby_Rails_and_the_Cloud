@@ -3,6 +3,7 @@
 	Adding pusher:test to freezing-autumn-489... done, v7 (free)
 	
 * See http://pusher.com/docs/heroku
+* Signup at http://pusher.com/
 	
 !SLIDE commandline smaller
 
@@ -50,3 +51,10 @@
 	  end
 
 	end
+	
+!SLIDE smaller
+
+	Flex use 
+	https://github.com/smakinson/Pusher-ActionScript-Library.git
+	Note: not quite ready for use?
+	Error: [strict] Ignoring policy file at http://ws.pusherapp.com:843/crossdomain.xml

@@ -4,6 +4,8 @@
 	{"section":"new_project"},
 	{"section":"first_rails_app"},
 	{"section":"pusher"},
-	{"section":"redis"}
+	{"section":"redis"}, 
+	{"section":"mongo"}, 
+	{"section":"extras"}
 	
 ]
