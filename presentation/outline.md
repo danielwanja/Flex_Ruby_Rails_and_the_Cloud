@@ -42,7 +42,7 @@ Section  2: Anatomy of a Rails app      [2 minutes]
     client (html/javascript/flex)
     Rails/Database
 Section  3: Different Options to Connect Flex to a Server [2 minutes]
-  HTTPService XML/JSON/AMF
+  HTTPService XML/JSON/BSON/AMF
   Sockets/WebSockets
 Section  4: Flex and Vanilla Rails   - noting take app [5 minutes]
   explain Rails, Routes, Rest, Database
@@ -64,6 +64,9 @@ And more?
 	URLShortener
     credit card payment technique
 	Single sign on using oauth (think twitter, facebook)
+	
+Should I talk about BSON
+   https://github.com/argoncloud/ActionBSON
 	
     
 And following techniques:

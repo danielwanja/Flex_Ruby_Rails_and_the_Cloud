@@ -4,6 +4,29 @@
 	
 * See http://pusher.com/docs/heroku
 * Signup at http://pusher.com/
+
+!SLIDE bullets
+
+# Publish/Subscribe uses
+
+* messaging
+* screen synchronization
+* notification
+* inbox/queue count update
+* system wide alarams
+
+!SLIDE bullets
+
+* Rails is not needed
+* Can be Flex-->Pusher-->Flex
+* However, Rails can be useful
+
+!SLIDE bullets
+
+# For Flex see
+
+* https://github.com/smakinson/Pusher-ActionScript-Library
+* https://github.com/y8/websocket-as
 	
 !SLIDE commandline smaller
 
@@ -51,6 +74,31 @@
 	  end
 
 	end
+	
+!SLIDE  code smaller 
+
+# In Flex: subscribe 
+	@@@javascript
+	private var pusher:Pusher;
+	private var channel:Channel;
+	protected function setup():void
+	{
+		pusher = new Pusher('a0b74a20a5d8df2db432', "pusherexample" );
+		channel = pusher.subscribe('test_channel');
+		channel.bind('greet', gotData);
+	}
+
+	protected function gotData(data:Object):void {
+		Alert.show(ObjectUtil.toString(data));
+	}
+
+!SLIDE  code smaller 
+
+# In Flex: send (not yet supported)
+	@@@javascript
+
+	channel.trigger('greet', {greeting: message.text}); 
+	
 	
 !SLIDE smaller
 
