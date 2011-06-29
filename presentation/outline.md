@@ -74,7 +74,7 @@ And following techniques:
 Database charding
 
 http://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/utils/CompressionAlgorithm.html
-File.open('pkg/full_games.xml.zlib','w') do |f|
+File.open('data_to_compress.zlib','w') do |f|
     z = Zlib::Deflate.new(9)
     f.write z.deflate(s.to_xml, Zlib::FINISH)
     z.close
