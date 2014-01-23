@@ -1,4 +1,4 @@
-This are the slides and a couple of projects I presented at AdobeMax.
+These are the slides and a couple of projects I presented at AdobeMax.
 
 <div class="image js-image">
   <span class="border-wrap">
