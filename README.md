@@ -7,18 +7,18 @@ These are the slides and a couple of projects I presented at AdobeMax.
 </div>
 
 * Section  1: Intro   [5minutes]
-**   why the cloud
-**   different cloud offering
+  *   why the cloud
+  *   different cloud offering
 * Section  2: Anatomy of a Rails app      [2 minutes]
-**     client (html/javascript/flex)
-**     Rails/Database
+  *     client (html/javascript/flex)
+  *     Rails/Database
 * Section  3: Different Options to Connect Flex to a Server [2 minutes]
-**   HTTPService XML/JSON/BSON/AMF
-**   Sockets/WebSockets
+  *   HTTPService XML/JSON/BSON/AMF
+  *   Sockets/WebSockets
 * Section  4: Flex and Vanilla Rails   - noting take app [5 minutes]
-**   explain Rails, Routes, Rest, Database
-**   explain HTTPService
-**   explain Heroku deployment
+  *   explain Rails, Routes, Rest, Database
+  *   explain HTTPService
+  *   explain Heroku deployment
 * Section  5: Flex app that use Bulk APi   -  todos app [5 minutes]
 * Section  6: RestfulX [5 minutes]
 * Section  7: Flex Gotcha's  [2 minutes]
