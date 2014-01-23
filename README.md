@@ -2,7 +2,7 @@ This are the slides and a couple of projects I presented at AdobeMax.
 
 <div class="image js-image">
   <span class="border-wrap">
-    <img src="/danielwanja/Flex_Ruby_Rails_and_the_Cloud/blob/master/S3441_Wanja_002.001.jpg?raw=true" width="250px">
+    <img src="https://raw.github.com/danielwanja/Flex_Ruby_Rails_and_the_Cloud/master/S3441_Wanja_002.001.jpg" width="250px">
   </span>
 </div>
 
